@@ -57,7 +57,7 @@ body {
 }
 
 .logo {
-  margin-right: 86px;
+  margin-right: 80px;
 }
 
 .site-nav {
@@ -241,9 +241,8 @@ body {
   display: flex;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 47px;
   padding-top: 25px;
-  outline: 2px solid black;
+  padding: 0;
 }
 
 .section-team {
@@ -276,13 +275,25 @@ body {
 
 /* regular */
 
-.section .section-regular {
+.section {
   width: 1230px;
   display: flex;
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid black;
+  padding-bottom: 47px;
+  padding-left: 0;
+  justify-content: space-between;
+}
+
+.section-regular {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+  text-align: center;
+  padding-top: 47px;
+  padding-bottom: 25px;
 }
 
 .regular:hover {
