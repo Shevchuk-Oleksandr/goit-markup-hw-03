@@ -306,6 +306,31 @@ body {
   background-color: var(--foter-color);
 }
 
+.container-footer {
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-info {
+  padding-left: 0;
+  padding-top: 48px;
+  padding-bottom: 88px;
+}
+
+.adress-item p {
+  margin: 0;
+}
+
+.join-item {
+  padding-left: 280px;
+  padding-top: 48px;
+  padding-bottom: 88px;
+}
+
 .footer-logo {
   color: var(--begraund-color);
   text-decoration: none;
@@ -317,6 +342,14 @@ body {
 
 .join-in {
   color: var(--begraund-color);
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.button-intem {
+  padding-left: 165px;
+  padding-top: 48px;
+  padding-bottom: 88px;
 }
 
 .text {
@@ -330,6 +363,8 @@ body {
   font-size: 12px;
   line-height: 2;
   text-decoration: none;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 /* Portfolio html page ********************************************************************************** */
