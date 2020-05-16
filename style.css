@@ -17,21 +17,30 @@ body {
 
 /* section head */
 
-.container {
+.list {
+  list-style: none;
+  margin: 0;
+}
+
+.page-header {
+  display: block;
+  background-color: white;
+  width: 1230px;
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
-  outline: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.section-header {
-  background-color: cadetblue;
-}
-
-.nav-text {
+.container {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
+  display: flex;
 }
 
 .section-logo {
@@ -47,13 +56,21 @@ body {
   color: var(--akcent-color);
 }
 
-.web-title .link {
+.site-nav {
+  display: flex;
+}
+
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+
+.site-nav .link {
   color: var(--second-color);
   text-decoration: none;
 }
 
-.web-title .link:hover,
-.web-title .link:focus {
+.link .site-nav:hover,
+.link .site-nav:focus {
   color: var(--akcent-color);
 }
 
@@ -61,13 +78,18 @@ body {
   color: var(--primary-text-color);
   text-decoration: none;
 }
+
+.info-title {
+  display: flex;
+}
+
+.info-title .item + .item {
+  margin-left: 50px;
+}
+
 .info-title a:hover,
 .info-title a:focus {
   color: var(--akcent-color);
-}
-.list {
-  list-style: none;
-  margin: auto;
 }
 
 .menu__li.active a {
@@ -116,11 +138,6 @@ body {
 
 /* section too */
 
-.section-too {
-  font-size: 14px;
-  line-height: 1.7;
-}
-
 .section-title {
   color: var(--second-color);
   font-weight: bold;
@@ -128,6 +145,12 @@ body {
   line-height: 1.1;
   margin-top: 0;
   margin-bottom: 10px;
+  display: flex;
+}
+
+.section-too {
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .link:hover,
