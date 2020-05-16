@@ -109,16 +109,32 @@ body {
   background-color: gray;
   color: var(--begraund-color);
   text-align: center;
-  margin-bottom: 94px;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 47px;
+  width: 1600px;
+  height: 400px;
+  align-items: center;
 }
 
 .container-too {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
-  margin-bottom: 94px;
+  margin-bottom: 0;
+  padding-top: 47px;
+  padding-bottom: 47px;
   width: 1230px;
-  outline: 2px solid black;
+}
+
+.list-item {
+  display: flex;
+  justify-content: center;
+}
+
+.item + .item {
+  margin-left: 30px;
 }
 
 .heading {
@@ -127,6 +143,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.3;
+  justify-content: center;
 }
 
 .button {
@@ -151,8 +168,8 @@ body {
   font-size: 14px;
   line-height: 1.1;
   margin-top: 0;
-  margin-bottom: 10px;
-  display: flex;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
 }
 
 .section-too {
@@ -176,11 +193,11 @@ body {
 
 .list-section {
   background-color: rgba(47, 48, 58, 0.8);
-  color: var(--begraund-color);
-  text-decoration: none;
-  font-size: 14px;
-  line-height: 1.1;
   border-radius: 0px 0px 4px 4px;
+  width: 380px;
+  height: 70px;
+  margin: 0;
+  display: block;
 }
 
 .caption {
@@ -189,14 +206,45 @@ body {
   line-height: 1.1;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
+  padding-top: 47px;
+  padding-bottom: 25px;
+}
+
+.caption-text {
+  color: var(--begraund-color);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.caption-item {
+  flex-wrap: wrap;
+  display: flex;
+  margin-left: -30px;
+  padding-bottom: 47px;
 }
 
 .cotainer-applications {
-  outline: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 1230px;
+  display: block;
 }
 
 /* team */
+
+.team-item {
+  width: 1230px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 47px;
+  padding-top: 25px;
+  outline: 2px solid black;
+}
 
 .section-team {
   font-size: 16px;
@@ -208,6 +256,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+  text-align: center;
 }
 
 .subtitle {
@@ -215,6 +264,9 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: var(--primary-text-color);
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 25px;
 }
 
 .color {
@@ -223,6 +275,15 @@ body {
 }
 
 /* regular */
+
+.section .section-regular {
+  width: 1230px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid black;
+}
 
 .regular:hover {
   background-color: var(--akcent-color);
