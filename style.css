@@ -389,69 +389,60 @@ body {
 /* Portfolio html page ********************************************************************************** */
 
 .Portfolio-button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
+  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1230px;
+  justify-content: center;
+  padding-top: 47px;
+}
+
+.button-item + .button-item {
+  margin-left: 8px;
 }
 
 .marceting {
-  position: absolute;
   width: 130px;
   height: 38px;
-  left: 976px;
-  top: 174px;
-  background: #f5f4fa;
   border-radius: 4px;
-  font-size: 16px;
-  line-height: 1.6;
 }
 
 .design {
-  position: absolute;
   width: 103px;
   height: 38px;
-  left: 865px;
-  top: 174px;
-  background: #f5f4fa;
   border-radius: 4px;
-  font-size: 16px;
-  line-height: 1.6;
 }
 
 .Applications {
-  position: absolute;
   width: 145px;
   height: 38px;
-  left: 712px;
-  top: 174px;
-  background: #f5f4fa;
   border-radius: 4px;
-  font-size: 16px;
-  line-height: 1.6;
 }
 
 .web-site {
-  position: absolute;
   width: 128px;
   height: 38px;
-  left: 576px;
-  top: 174px;
-  background: #f5f4fa;
   border-radius: 4px;
-  font-size: 16px;
-  line-height: 1.6;
 }
 
 .all {
-  position: absolute;
   width: 73px;
   height: 38px;
-  left: 495px;
-  top: 174px;
-  background: #f5f4fa;
   border-radius: 4px;
-  font-size: 16px;
-  line-height: 1.6;
+}
+
+.decoration-list {
+  width: 1230px;
+  outline: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 25px;
+  padding: 0;
+  justify-content: space-evenly;
 }
 
 .decoration {
@@ -469,10 +460,14 @@ body {
   font-size: 18px;
   line-height: 2;
   color: var(--second-color);
+  margin: 0;
+  padding-left: 24px;
 }
 
 .p-title {
   font-size: 16px;
   line-height: 1.8;
   color: var(--primary-text-color);
+  margin: 0;
+  padding-left: 24px;
 }
