@@ -23,13 +23,16 @@ body {
 }
 
 .page-header {
-  display: block;
   background-color: white;
   width: 1230px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   align-items: center;
+}
+
+.page-line {
+  border-bottom: 1px solid #ececec;
 }
 
 .container {
@@ -369,9 +372,13 @@ body {
   font-size: 12px;
   line-height: 2;
   text-decoration: none;
-  margin: 0;
+  padding-top: 18px;
   padding-bottom: 20px;
   text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .input {
@@ -435,7 +442,6 @@ body {
 
 .decoration-list {
   width: 1230px;
-  outline: 2px solid black;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -443,6 +449,11 @@ body {
   padding-top: 25px;
   padding: 0;
   justify-content: space-evenly;
+  padding-bottom: 110px;
+}
+
+.decoration-list li:nth-child(3n + 4) {
+  margin-left: 0;
 }
 
 .decoration {
@@ -470,4 +481,5 @@ body {
   color: var(--primary-text-color);
   margin: 0;
   padding-left: 24px;
+  padding-bottom: 50px;
 }
