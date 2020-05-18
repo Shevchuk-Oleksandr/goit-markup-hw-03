@@ -485,6 +485,7 @@ body {
   line-height: 2;
   color: var(--second-color);
   margin: 0;
+  margin-bottom: 4px;
   padding-left: 24px;
 }
 
