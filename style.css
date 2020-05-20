@@ -223,7 +223,6 @@ body {
   margin-top: 0;
   width: 1200px;
   display: block;
-  outline: 2px solid black;
   padding: 94px 15px;
 }
 
@@ -276,7 +275,6 @@ body {
   padding: 94px 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid black;
 }
 
 .container-team .list {
@@ -330,7 +328,6 @@ body {
   padding-top: 94px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid black;
 }
 
 .container-costumers .list {
@@ -355,11 +352,11 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 48px;
-  outline: 2px solid black;
 }
 
-.foter-main {
+.footer-main {
   display: flex;
+  justify-content: space-between;
 }
 
 .copirate {
@@ -372,15 +369,16 @@ body {
   padding-bottom: 88px;
 }
 
+.text {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--begraund-color);
+}
+
 .adress-item p {
   margin: 0;
   padding: 0;
-}
-
-.join-item {
-  padding-left: 280px;
-  padding-top: 48px;
-  padding-bottom: 88px;
+  margin-top: 10px;
 }
 
 .footer-logo {
@@ -390,24 +388,25 @@ body {
   font-weight: bold;
   font-size: 22px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .join-in {
   color: var(--begraund-color);
   margin: 0;
-  padding-bottom: 10px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .button-intem {
   padding-left: 160px;
   padding-top: 48px;
   padding-bottom: 88px;
-}
-
-.text {
-  font-size: 14px;
-  line-height: 1.7;
-  color: var(--begraund-color);
 }
 
 .adres-title {
@@ -430,7 +429,7 @@ body {
   border-radius: 4px;
   width: 270px;
   height: 40px;
-  margin-right: 10px;
+  margin-right: 12px;
   background-color: #2f303a;
   color: rgba(255, 255, 255, 0.6);
 }
