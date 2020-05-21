@@ -517,3 +517,7 @@ body {
   color: var(--primary-text-color);
   margin: 0;
 }
+
+.border {
+  border-top: 1px solid #ececec;
+}
