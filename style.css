@@ -372,6 +372,7 @@ body {
 .footer-main {
   display: flex;
   margin-bottom: 28px;
+  justify-content: center;
 }
 
 .copirate {
@@ -419,7 +420,7 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-  margin-right: 155px;
+  margin-right: 93px;
 }
 
 .button-intem {
