@@ -100,7 +100,7 @@ body {
   margin-left: auto;
 }
 .info-title .item + .item {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .info-title a:hover,
@@ -118,8 +118,8 @@ body {
   background-color: gray;
   color: var(--begraund-color);
   text-align: center;
-  padding-bottom: 94px;
   width: 1200px;
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -133,8 +133,7 @@ body {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 94px;
-  padding-bottom: 94px;
+
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -166,6 +165,8 @@ body {
 .section-too {
   font-size: 14px;
   line-height: 1.7;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .link:hover,
@@ -197,6 +198,8 @@ body {
   font-size: 44px;
   line-height: 1.3;
   justify-content: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .button {
@@ -216,13 +219,19 @@ body {
 
 /*  What are we doing */
 
+.applications {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
 .cotainer-applications {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
   width: 1200px;
   display: block;
-  padding: 94px 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .caption-item {
@@ -271,7 +280,8 @@ body {
 
 .section-team .container-team {
   width: 1200px;
-  padding: 94px 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -291,6 +301,8 @@ body {
   font-size: 16px;
   line-height: 1.2;
   background-color: var(--baground-color-second);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .name-section {
@@ -319,12 +331,16 @@ body {
 
 /* Regular customers */
 
+.Regular-customers {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
 .Regular-customers .container-costumers {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 94px;
-  padding-top: 94px;
+
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -342,6 +358,7 @@ body {
 
 .footer {
   background-color: var(--foter-color);
+  padding-top: 48px;
 }
 
 .container-footer {
@@ -350,12 +367,11 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 48px;
 }
 
 .footer-main {
   display: flex;
-  justify-content: space-between;
+  margin-bottom: 28px;
 }
 
 .copirate {
@@ -378,6 +394,9 @@ body {
   margin: 0;
   padding: 0;
   margin-top: 10px;
+  margin-right: 69px;
+  font-family: Roboto;
+  font-style: normal;
 }
 
 .footer-logo {
@@ -395,11 +414,12 @@ body {
   margin: 0;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 21px;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
+  margin-right: 155px;
 }
 
 .button-intem {
@@ -426,8 +446,8 @@ body {
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  width: 270px;
-  height: 40px;
+  width: 358px;
+  height: 50px;
   margin-right: 12px;
   background-color: #2f303a;
   color: rgba(255, 255, 255, 0.6);
@@ -436,13 +456,14 @@ body {
 /* Portfolio html page ********************************************************************************** */
 
 .container-button {
-  padding-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
   width: 1200px;
-  padding-top: 93px;
   justify-content: center;
 }
 
@@ -460,16 +481,20 @@ body {
   margin-left: 8px;
 }
 
+.decoration-list li:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
 .decoration-list {
   width: 1200px;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  padding-top: 50px;
-  padding-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .decoration-list li:nth-child(3n + 4) {
@@ -520,4 +545,6 @@ body {
 
 .border {
   border-top: 1px solid #ececec;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
