@@ -115,15 +115,19 @@ body {
 /* section 0ne */
 
 .section-one .container-one {
-  background-color: gray;
   color: var(--begraund-color);
   text-align: center;
   width: 1200px;
-  height: 600px;
+
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.section-one {
+  background-color: gray;
+  height: 600px;
 }
 
 /* section too */
@@ -160,6 +164,8 @@ body {
   line-height: 1.1;
   margin-top: 0;
   margin-bottom: 10px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .section-too {
@@ -361,6 +367,14 @@ body {
   padding-top: 48px;
 }
 
+.block-adress {
+  margin-right: 69px;
+}
+
+.block-join {
+  margin-right: 93px;
+}
+
 .container-footer {
   width: 1200px;
   margin-left: auto;
@@ -395,7 +409,6 @@ body {
   margin: 0;
   padding: 0;
   margin-top: 10px;
-  margin-right: 69px;
   font-family: Roboto;
   font-style: normal;
 }
@@ -420,7 +433,6 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-  margin-right: 93px;
 }
 
 .button-intem {
